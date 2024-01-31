@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+
+}
+.navlist{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    
+}
+.navlist li a{
+    margin-left:50px ;
+    color: white;
+}
+.navicon li button a{
+    text-decoration: none;
+}
+.navtitle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.navlist li a:hover{
+    color: yellow;
+}
+.navicon li a{
+    color: whitesmoke;
+}
+.navicon li a:hover{
+    color: yellow;
+}
+.navicon li button:hover{
+a{color: black;}
+}
+/* .carousel-item h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: white;
+    
+    
+}
+.carousel-item h5,p{
+    position: relative;
+    color: white;
+    top: -250px;
+    left: -350px;
+   
+}
+.carousel-indicators{
+    position: relative;
+    top: 600px;
+    left: -350px;
+    
+    
+    
+    
+}
+.carousel-inner{
+    background-image: url(./images/hero-bg.jpg);
+    height:900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -100px;
+} */
+.carousel-inner{
+    background-image: url(./images/hero-bg.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -100px;
+}
+.carousel-item{
+    /* transform: translateX(10%); */
+    margin-left: 150px;
+    transition:1s;
+}
+.carousel-item h5{
+    font-size: 40px;
+    color: white;
+    font-family:'Dancing Script', cursive ;
+}
+.carousel-item{
+    color: white;
+}
+.carousel-item{
+    position: relative;
+    top: 40%;
+}
+.carousel-indicators ul{
+    list-style-type: none;
+    display: flex;
+
+    
+  }
+  .carousel-item button{
+    margin-left: 100px;
+  }
+  .carousel-item p{
+    width: 500px;
+  }
+.carousel-item button a{
+    text-decoration: none;
+    color: white;
+}
+.carousel-item button:hover{
+   a{color: black;} 
+
+}
+.carousel-indicators{
+    position: relative;
+    top: 550px;
+    left: -485px;
+}
+.ol .row .col-4{
+    display: flex;
+    background-color: black;
+    margin-left: 20px;
+}
+.ol .row .col-4 img{
+    width: 180px;
+    border-radius: 50%;
+    border: 2px yellow solid;
+}
+.ol .row .col-4 h6,h3{
+    color: white;
+    font-family:'Dancing Script', cursive ;
+}
+.olcontent{
+    position: relative;
+   top: 30px;
+   left: 30px;
+}
+.olcontent h6{
+    font-size: 30px;
+}
+.olcontent button a{
+    text-decoration: none;
+    color: white;
+
+}
+.olcontent button:hover{
+    a{
+        color: black;
+    }
+}
+.ol .row .col-4 img:hover{
+    scale: 1.1;
+    transition-duration: 0.6s;
+}
+.ol .row .col-4 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ourmenu h1{
+    text-align: center;
+    font-family:'Dancing Script', cursive  ;
+}
+.ourmenu{
+    margin-top:100px ;
+}
+.omsort ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.omsort ul li{
+    
+    padding: 20px;
+}
+.omsort ul li a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+.omsort ul li a:hover{
+    color: white;
+    background-color: black;
+}
+.ourmenu .row .col-4{
+    background-color: black;
+    margin-left: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+.foodmenuimage{
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.548);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    left: -12px;
+    height: 200px;
+
+}
+.foodpris{
+    color: white;
+    margin-top: 5px;
+}
+.foodmenuimage img{
+    margin-left: 100px;
+    padding: 20px;
+}
+.foodprice span a{
+    margin-left: 300px;
+    border-radius: 50%;
+     color: white;
+}
+.foodprice{
+    margin-bottom: 20px
+}
+.foodprice span a:hover{
+    color: black;
+
+}
+.foodpris h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.foodmenuimage:hover{
+    img{
+        scale: 1.1;
+        transition: 0.5s;
+    }
+}
+.ourmenu .row{
+    margin-top: 20px;
+}
+.ourmenu h2{
+    margin-left: 46%;
+    margin-top: 20px;
+    display: inline-block;
+}
+.ourmenu h2 a{
+    color: white;
+
+}
+.ourmenu h2:hover{
+    a{
+        color: black;
+    }
+}
+.wearefeane{
+    background-color: black;
+}
+.vrfeaneimg{
+    display: flex;
+}
+.vrfeanepris{
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.vrfeaneimg p{
+    width: 500px;
+}
+.vrfeaneimg h2 a{
+    color: white;
+}
+.vrfeaneimg h2{
+    display: inline-block;
+}
+.vrfeaneimg h2:hover{
+    a{
+        color: black;
+    }
+}
+.vrfeaneimg {
+    padding: 20px;
+}
+.form .row .col-6 h2{
+    text-align: center;
+    font-family:'Dancing Script', cursive  ;
+    margin-top: -15px;
+}
+.form{
+    margin-top: 50px;
+}
+
+.form form input{
+    margin-top: 10px;
+}
+.form form select{
+    margin-top: 10px;
+}
+.form h3{
+    margin-top: 10px;
+}
+.form h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.map{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.map iframe{
+    height: 300px;
+}
+
+.previcon{
+    margin-left: 48%;
+    margin-top: 10px;
+    
+}
+.previcon span{
+    margin-left: 5px;
+}
+footer h6{
+    font-family:'Dancing Script', cursive  ;
+    color: white;
+}
+footer p{
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+}
+.copyright{
+    color: white;
+}
+footer{
+    margin-top: 100px;
+}
+footer span{
+    color: white;
+}
+.client-name{
+    color: black;
+}
+.client-container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+/* section header */
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-header .title{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+/* testimonials */
+.testimonials{
+    padding: 100px 0;
+}
+.testimonials-item{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+.testimonials-item .info{
+    display: flex;
+    align-items: center;
+}
+.testimonials-item img{    width: 200px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.testimonials-item .client-name{
+    font-size: 40px;
+    font-weight: 500px;
+    line-height: 1.2;
+
+}
+.testimonials-item .place{
+    font-weight: 400px;
+    font-family: sans-serif;
+    color: gray;
+    
+}
+.testimonials-item p{
+    margin-top: 20px;
+    padding: 20px;
+    
+}.testimonials-item .rating{
+    color: goldenrod;
+    padding: 20px;
+}
+
+.testimonials .swiper-pagination{
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+}
+.testimonials .swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+   
+   cursor: pointer;
+}
+.client-feedback{
+    background-color:black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    margin-top: -50px;
+}
+.testimonials .info{
+    background-color: yellow;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+
+
+
+
+
+
